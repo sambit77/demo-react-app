@@ -1,11 +1,17 @@
-# Getting Started with Create React App
+## React-Demo
+##### UI setup / project structure for "React" & "Nextjs" apps, to be used in [Bookmarker-App](https://github.com/sambit77/bookmarker-app)
+### Spin-Up the React App
+`cd demo-react-app` -> `npm start` -> `localhost:3000`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Other Commands
+`npx create-react-app my-app` : Creates a new react project (js) <br>
+`npx create-react-app my-app --template typescript` : Creates a new react project (ts) <br>
+`npm install react-router-dom@6` : "lib for ui navs" <br>
+`npx create-next-app demo-nextjs-app --ts` : Creates a new next-js (typescript) <br>
+`npm start` | `yarn dev` : {"Start react" , : "start next-js"} <br>
 
-## Available Scripts
 
 In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -38,9 +44,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
